@@ -39,13 +39,13 @@
             
     <gap:plugin spec="cordova-plugin-request-location-accuracy" source="npm" />   
 
-    <gap:plugin name="cordova-plugin-x-toast" source="npm" spec="2.7.0" />         
+    <gap:plugin name="cordova-plugin-x-toast" source="npm" />         
             
     <!--ENABLED RAZOR PAY IF ONLY YOU NEED IT-->
 	<!--<gap:plugin spec="https://github.com/razorpay/razorpay-cordova.git#v1.4.3" source="git" />
 	<gap:plugin spec="https://github.com/razorpay/razorpay-cordova.git#v1.3.5" source="git" />-->
     
-    <gap:plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
+    <gap:plugin name="cordova-plugin-media" source="npm" />
     
     <!--WHEN COMPILING THE APP TO IOS USE cordova.plugins.diagnostic version 5.0.1 FOR ANDROID use 4.0.0-->
     <!-- <gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="5.0.1" /> -->
