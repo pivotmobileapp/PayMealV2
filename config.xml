@@ -37,10 +37,8 @@
 
     <gap:plugin name="phonegap-plugin-push" source="npm" />
             
-    <gap:plugin spec="https://github.com/bastikikang/cordova-plugin-request-location-accuracy" source="git">    
-      <variable name="PLAY_SERVICES_VERSION" value="11.0.1" /> 
-    </gap:plugin>
-    
+    <gap:plugin spec="cordova-plugin-request-location-accuracy" source="npm" />   
+
     <gap:plugin name="cordova-plugin-x-toast" source="npm" spec="2.7.0" />         
             
     <!--ENABLED RAZOR PAY IF ONLY YOU NEED IT-->
@@ -51,7 +49,7 @@
     
     <!--WHEN COMPILING THE APP TO IOS USE cordova.plugins.diagnostic version 5.0.1 FOR ANDROID use 4.0.0-->
     <!-- <gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="5.0.1" /> -->
-    <gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="4.0.0" />    
+    <gap:plugin name="cordova.plugins.diagnostic" source="npm"  />    
     
     <gap:plugin name="cordova-plugin-buildinfo" source="npm"/>
     <gap:plugin name="cordova-plugin-camera" source="npm"  />
