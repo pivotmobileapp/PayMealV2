@@ -37,19 +37,21 @@
 
     <gap:plugin name="phonegap-plugin-push" source="npm" />
             
-    <gap:plugin spec="cordova-plugin-request-location-accuracy" source="npm" />   
-
-    <gap:plugin name="cordova-plugin-x-toast" source="npm" />         
+    <gap:plugin spec="cordova-plugin-request-location-accuracy" source="npm">    
+      <variable name="PLAY_SERVICES_VERSION" value="15" /> 
+    </gap:plugin>
+    
+    <gap:plugin name="cordova-plugin-x-toast" source="npm"  />         
             
     <!--ENABLED RAZOR PAY IF ONLY YOU NEED IT-->
 	<!--<gap:plugin spec="https://github.com/razorpay/razorpay-cordova.git#v1.4.3" source="git" />
 	<gap:plugin spec="https://github.com/razorpay/razorpay-cordova.git#v1.3.5" source="git" />-->
     
-    <gap:plugin name="cordova-plugin-media" source="npm" />
+    <gap:plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
     
     <!--WHEN COMPILING THE APP TO IOS USE cordova.plugins.diagnostic version 5.0.1 FOR ANDROID use 4.0.0-->
     <!-- <gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="5.0.1" /> -->
-    <gap:plugin name="cordova.plugins.diagnostic" source="npm"  />    
+    <gap:plugin name="cordova.plugins.diagnostic" source="npm" />    
     
     <gap:plugin name="cordova-plugin-buildinfo" source="npm"/>
     <gap:plugin name="cordova-plugin-camera" source="npm"  />
