@@ -3,8 +3,8 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
     xmlns:android = "http://schemas.android.com/apk/res/android"
     id        = "com.paymeal"
-    versionCode = "1.5"
-    version   = "1.5">
+    versionCode = "2.0"
+    version   = "2.0">
     <name>PayMeal</name>
     <description>
         PayMeal
@@ -35,12 +35,8 @@
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm" />	
 	<gap:plugin name="cordova-plugin-geolocation" source="npm" />
 	<gap:plugin name="cordova-plugin-network-information" source="npm" />
-	
-<gap:plugin spec="https://github.com/dpa99c/cordova-plugin-firebasex" source="git">
-	</gap:plugin>
 
-
-
+    <gap:plugin name="phonegap-plugin-push" source="npm" spec="2.1.2"  />
 	<gap:plugin spec="https://github.com/pivotmobileapp/kommunicate-cordova-plugin" source="git">
 	</gap:plugin>
             
