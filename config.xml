@@ -37,9 +37,7 @@
 	<gap:plugin name="cordova-plugin-network-information" source="npm" />
 	
 <gap:plugin spec="https://github.com/dpa99c/cordova-plugin-firebasex" source="git">
-	</gap:plugin>
-            <gap:plugin spec="https://github.com/phonegap/phonegap-app-developer" source="git">
-	</gap:plugin>
+
 
 
 	<gap:plugin spec="https://github.com/pivotmobileapp/kommunicate-cordova-plugin" source="git">
