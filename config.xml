@@ -38,9 +38,10 @@
 	
 <gap:plugin spec="https://github.com/dpa99c/cordova-plugin-firebasex" source="git">
 	</gap:plugin>
-            
+            <gap:plugin spec="https://github.com/phonegap/phonegap-app-developer" source="git">
+	</gap:plugin>
 
-    <gap:plugin name="phonegap-plugin-push" source="npm" spec="2.1.2"  />
+
 	<gap:plugin spec="https://github.com/pivotmobileapp/kommunicate-cordova-plugin" source="git">
 	</gap:plugin>
             
