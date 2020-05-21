@@ -35,11 +35,11 @@
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm" />	
 	<gap:plugin name="cordova-plugin-geolocation" source="npm" />
 	<gap:plugin name="cordova-plugin-network-information" source="npm" />
-	    <!-- <gap:plugin name="kommunicate-cordova-plugin" source="npm" spec="0.4.22"  /> -->
+
 
     <gap:plugin name="phonegap-plugin-push" source="npm" spec="2.1.2"  />
 	<gap:plugin name="https://github.com/pivotmobileapp/kommunicate-cordova-plugin" source="git"  />
-	
+	</gap:plugin>
             
     <gap:plugin spec="https://github.com/bastikikang/cordova-plugin-request-location-accuracy" source="git">    
       <variable name="PLAY_SERVICES_VERSION" value="11.0.1" /> 
