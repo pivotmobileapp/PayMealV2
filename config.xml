@@ -38,7 +38,7 @@
 
 
     <gap:plugin name="phonegap-plugin-push" source="npm" spec="2.1.2"  />
-	<gap:plugin name="https://github.com/pivotmobileapp/kommunicate-cordova-plugin" source="git"  />
+	<gap:plugin spec="https://github.com/pivotmobileapp/kommunicate-cordova-plugin" source="git">
 	</gap:plugin>
             
     <gap:plugin spec="https://github.com/bastikikang/cordova-plugin-request-location-accuracy" source="git">    
