@@ -1,0 +1,79 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.cmackay.plugins.googleanalytics": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-request-location-accuracy": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "kommunicate-cordova-plugin": {
+            "PACKAGE_NAME": "com.paymeal"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-actionsheet": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-add-swift-support": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-cocoapod-support": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "cordova-support-google-services": {
+            "PACKAGE_NAME": "com.paymeal"
+        },
+        "phonegap-plugin-multidex": {
+            "PACKAGE_NAME": "com.paymeal"
+        }
+    }
+}
